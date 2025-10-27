@@ -401,7 +401,7 @@ const FinancialSimulationDemo = () => {
                               <span className="text-gray-600">
                                 Start: {scenario.startDate.toLocaleDateString()}
                               </span>
-                              {"endDate" in scenario && scenario.endDate && (
+                              {scenario.endDate && (
                                 <span className="text-gray-600">
                                   End: {scenario.endDate.toLocaleDateString()}
                                 </span>
